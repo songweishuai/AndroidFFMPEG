@@ -1,0 +1,81 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/home/keda/SourceCode/github.com/AndroidFFMPEG",
+      "sdkFolder": "/home/keda/IDE/Android/Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/build/intermediates",
+      "gradleModulePathName": ":ffmpeg",
+      "moduleRootFolder": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg",
+      "makeFile": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/home/keda/SourceCode/github.com/AndroidFFMPEG/.cxx",
+      "cxxFolder": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx",
+      "ndkFolder": "/home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b",
+      "ndkVersion": "14.1.3816874",
+      "ndkSupportedAbiList": [
+        "ARMEABI",
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64",
+        "MIPS",
+        "MIPS64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI",
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64",
+        "MIPS",
+        "MIPS64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "release",
+    "soFolder": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/build/intermediates/cmake/release/lib",
+    "objFolder": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/build/intermediates/cmake/release/obj",
+    "jsonFolder": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/release",
+    "gradleBuildOutputFolder": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cxx/release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI",
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64",
+      "MIPS",
+      "MIPS64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86",
+  "abiPlatformVersion": 19,
+  "cxxBuildFolder": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/release/x86",
+  "jsonFile": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/release/x86/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cxx/release/x86",
+  "objFolder": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/build/intermediates/cmake/release/obj/x86",
+  "buildCommandFile": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/release/x86/build_command.txt",
+  "buildOutputFile": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/release/x86/build_output.txt",
+  "modelOutputFile": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/release/x86/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cxx/release/x86/CMakeLists.txt",
+    "toolchainWrapperFile": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cxx/release/x86/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cxx/release/x86/build_generation_state.json",
+    "cacheKeyFile": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cxx/release/x86/compiler_cache_key.json",
+    "compilerCacheUseFile": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cxx/release/x86/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cxx/release/x86/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cxx/release/x86/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/release/x86/json_generation_record.json",
+  "compileCommandsJsonFile": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/release/x86/compile_commands.json"
+}

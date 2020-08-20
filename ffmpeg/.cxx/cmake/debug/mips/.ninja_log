@@ -1,0 +1,3 @@
+# ninja log v5
+0	198	1597907112	CMakeFiles/videosurface.dir/surface.cpp.o	dd6b6741fa32d094
+198	355	1597907112	/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/build/intermediates/cmake/debug/obj/mips/libvideosurface.so	a1bc3b78fd57ea38

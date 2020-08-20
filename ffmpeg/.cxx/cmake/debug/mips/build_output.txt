@@ -1,0 +1,17 @@
+CMake Warning (dev) at /home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/CMakeLists.txt:9:
+  Syntax Warning in cmake code at column 29
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/CMakeLists.txt:10:
+  Syntax Warning in cmake code at column 24
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+**************************************************
+CMAKE_SOURCE_DIR->/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni
+ANDROID_ABI->mips
+**************************************************
+Configuring done

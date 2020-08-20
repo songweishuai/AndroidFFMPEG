@@ -1,0 +1,7 @@
+Executable : /home/keda/IDE/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/debug/mips
+videosurface
+jvmArgs : 
+

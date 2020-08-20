@@ -1,0 +1,41 @@
+{
+  "stringTable": {
+    "0": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/release/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android --gcc-toolchain=/home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/platforms/android-21/arch-arm64 -Dvideosurface_EXPORTS -I/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/src/main/jni/include -isystem /home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "/home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/build/cmake/android.toolchain.cmake",
+    "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/keda/IDE/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/release/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/home/keda/IDE/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/release/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "videosurface-Release-arm64-v8a": {
+      "buildCommand": "/home/keda/IDE/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/release/arm64-v8a\" videosurface",
+      "buildType": "release",
+      "toolchain": "3737270086",
+      "abi": "arm64-v8a",
+      "artifactName": "videosurface",
+      "files": [
+        {
+          "src": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/surface.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/build/intermediates/cmake/release/obj/arm64-v8a/libvideosurface.so"
+    }
+  },
+  "toolchains": {
+    "3737270086": {
+      "cppCompilerExecutable": "/home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

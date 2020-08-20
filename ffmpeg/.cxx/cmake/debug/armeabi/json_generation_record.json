@@ -1,0 +1,50 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 19 min SDK version: armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "Trying to locate CMake in local SDK repository."
+  },
+  {
+    "level": "INFO",
+    "message": "- CMake found in SDK at \u0027/home/keda/IDE/Android/Sdk/cmake/3.10.2.4988404\u0027 had version \u00273.10.2\u0027"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON /home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/debug/armeabi/android_gradle_build.json due to:"
+  },
+  {
+    "level": "INFO",
+    "message": "- a dependent build file changed"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "keeping json folder \u0027/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/debug/armeabi\u0027 but regenerating project"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : /home/keda/IDE/Android/Sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni\n-B/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/debug/armeabi\n-DANDROID_ABI\u003darmeabi\n-DANDROID_PLATFORM\u003dandroid-19\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/build/intermediates/cmake/debug/obj/armeabi\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DANDROID_NDK\u003d/home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b\n-DCMAKE_CXX_FLAGS\u003d\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi\n-DCMAKE_SYSTEM_VERSION\u003d19\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_ANDROID_NDK\u003d/home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b\n-DCMAKE_TOOLCHAIN_FILE\u003d/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/debug/armeabi/pre-ndk-r15-wrapper-android.toolchain.cmake\n-G Ninja\n-DCMAKE_MAKE_PROGRAM\u003d/home/keda/IDE/Android/Sdk/cmake/3.10.2.4988404/bin/ninja\njvmArgs : \n\n"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing cmake"
+  },
+  {
+    "level": "INFO",
+    "message": "write build output /home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/debug/armeabi/build_output.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file /home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/debug/armeabi/build_command.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems"
+  }
+]

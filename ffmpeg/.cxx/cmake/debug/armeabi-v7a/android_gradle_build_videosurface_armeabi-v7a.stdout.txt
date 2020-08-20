@@ -1,0 +1,2 @@
+ninja: Entering directory `/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/debug/armeabi-v7a'
+ninja: no work to do.

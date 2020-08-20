@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/debug/x86_64",
+  "command": "/home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=x86_64-none-linux-android --gcc-toolchain=/home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/platforms/android-21/arch-x86_64  -Dvideosurface_EXPORTS -isystem /home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/videosurface.dir/surface.cpp.o -c /home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/surface.cpp",
+  "file": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/surface.cpp"
+}
+]

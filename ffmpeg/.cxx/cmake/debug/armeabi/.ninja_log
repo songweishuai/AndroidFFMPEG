@@ -1,0 +1,18 @@
+# ninja log v5
+0	258	1597904845	CMakeFiles/videosurface.dir/surface.cpp.o	d3630cf60629f8c6
+0	40	1597905083	build.ninja	d88d634a75d7866e
+0	29	1597905173	build.ninja	d88d634a75d7866e
+0	39	1597905173	CMakeFiles/videosurface.dir/surface.cpp.o	76f46046f0e6b8d5
+0	13	1597905205	build.ninja	d88d634a75d7866e
+0	17	1597905284	build.ninja	d88d634a75d7866e
+0	14	1597905435	build.ninja	d88d634a75d7866e
+1	19	1597905687	build.ninja	d88d634a75d7866e
+1	15	1597905687	/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/build/intermediates/cmake/debug/obj/armeabi/libvideosurface.so	148db36b89c8a913
+0	42	1597905917	build.ninja	d88d634a75d7866e
+0	18	1597905989	build.ninja	d88d634a75d7866e
+0	22	1597906076	build.ninja	d88d634a75d7866e
+0	27	1597906096	build.ninja	d88d634a75d7866e
+1	19	1597906140	/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/build/intermediates/cmake/debug/obj/armeabi/libvideosurface.so	45b8d93c23e27b91
+0	17	1597907111	build.ninja	d88d634a75d7866e
+0	98	1597907111	CMakeFiles/videosurface.dir/surface.cpp.o	4ec042ceb07b47df
+98	131	1597907111	/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/build/intermediates/cmake/debug/obj/armeabi/libvideosurface.so	99230e4818496646

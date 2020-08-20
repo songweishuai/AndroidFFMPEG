@@ -1,0 +1,18 @@
+{
+  "buildFiles": [
+    "/home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/build/cmake/android.toolchain.cmake",
+    "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/keda/IDE/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/debug/armeabi\" clean"
+  ],
+  "buildTargetsCommand": "/home/keda/IDE/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/debug/armeabi\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "videosurface-Debug-armeabi": {
+      "artifactName": "videosurface",
+      "buildCommand": "/home/keda/IDE/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/debug/armeabi\" videosurface",
+      "abi": "armeabi",
+      "output": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/build/intermediates/cmake/debug/obj/armeabi/libvideosurface.so"
+    }
+  }
+}

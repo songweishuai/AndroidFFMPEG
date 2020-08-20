@@ -1,0 +1,7 @@
+ninja: Entering directory `/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/debug/armeabi'
+[0/1] Re-running CMake...
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/debug/armeabi
+[1/2] Building CXX object CMakeFiles/videosurface.dir/surface.cpp.o
+[2/2] Linking CXX shared library /home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/build/intermediates/cmake/debug/obj/armeabi/libvideosurface.so
