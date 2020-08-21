@@ -219,8 +219,11 @@ Project_SOURCE_DIR:STATIC=/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/
 //Path to a library.
 log-lib:FILEPATH=/home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/platforms/android-19/arch-arm/usr/lib/liblog.so
 
+//Path to a library.
+native-android:FILEPATH=/home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/platforms/android-19/arch-arm/usr/lib/libandroid.so
+
 //Dependencies for the target
-videosurface_LIB_DEPENDS:STATIC=general;FFMPEG;general;/home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/platforms/android-19/arch-arm/usr/lib/liblog.so;
+videosurface_LIB_DEPENDS:STATIC=general;FFMPEG;general;/home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/platforms/android-19/arch-arm/usr/lib/liblog.so;general;/home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/platforms/android-19/arch-arm/usr/lib/libandroid.so;
 
 
 ########################

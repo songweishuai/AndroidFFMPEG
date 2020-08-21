@@ -23,6 +23,21 @@
           "src": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/surface.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/util.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/player.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/vdecode.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
         }
       ],
       "headers": [],

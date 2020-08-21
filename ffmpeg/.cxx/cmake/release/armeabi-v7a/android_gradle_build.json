@@ -1,7 +1,7 @@
 {
   "stringTable": {
     "0": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/release/armeabi-v7a",
-    "1": "--target=armv7-none-linux-androideabi --gcc-toolchain=/home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/platforms/android-19/arch-arm -Dvideosurface_EXPORTS -I/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/src/main/jni/include -isystem /home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -Os -DNDEBUG -fPIC"
+    "1": "--target=armv7-none-linux-androideabi --gcc-toolchain=/home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/platforms/android-19/arch-arm -Dvideosurface_EXPORTS -I/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/include -isystem /home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -Os -DNDEBUG -fPIC"
   },
   "buildFiles": [
     "/home/keda/IDE/Android/Sdk/ndk/android-ndk-r14b/build/cmake/android.toolchain.cmake",
@@ -21,6 +21,21 @@
       "files": [
         {
           "src": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/surface.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/util.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/player.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/vdecode.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         }

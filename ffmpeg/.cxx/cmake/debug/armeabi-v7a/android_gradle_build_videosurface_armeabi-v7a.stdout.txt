@@ -1,2 +1,35 @@
 ninja: Entering directory `/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/.cxx/cmake/debug/armeabi-v7a'
-ninja: no work to do.
+[1/3] Building CXX object CMakeFiles/videosurface.dir/surface.cpp.o
+[2/3] Building CXX object CMakeFiles/videosurface.dir/player.cpp.o
+/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/player.cpp:48:2: warning: 'avfilter_register_all' is deprecated [-Wdeprecated-declarations]
+        avfilter_register_all();
+        ^
+/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/include/libavfilter/avfilter.h:714:6: note: 'avfilter_register_all' has been explicitly marked deprecated here
+void avfilter_register_all(void);
+     ^
+/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/player.cpp:49:2: warning: 'av_register_all' is deprecated [-Wdeprecated-declarations]
+        av_register_all();
+        ^
+/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/include/libavformat/avformat.h:2050:6: note: 'av_register_all' has been explicitly marked deprecated here
+void av_register_all(void);
+     ^
+/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/player.cpp:74:28: warning: 'codec' is deprecated [-Wdeprecated-declarations]
+                if (fmt_ctx->streams[i]->codec->codec_type == AVMEDIA_TYPE_VIDEO) {
+                                         ^
+/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/include/libavformat/avformat.h:885:21: note: 'codec' has been explicitly marked deprecated here
+    AVCodecContext *codec;
+                    ^
+/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/player.cpp:87:69: warning: 'codec' is deprecated [-Wdeprecated-declarations]
+                global_context.vcodec_ctx = fmt_ctx->streams[video_stream_index]->codec;
+                                                                                  ^
+/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/include/libavformat/avformat.h:885:21: note: 'codec' has been explicitly marked deprecated here
+    AVCodecContext *codec;
+                    ^
+/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/player.cpp:125:4: warning: 'av_free_packet' is deprecated [-Wdeprecated-declarations]
+                        av_free_packet(&pkt);
+                        ^
+/home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/src/main/jni/include/libavcodec/avcodec.h:4473:6: note: 'av_free_packet' has been explicitly marked deprecated here
+void av_free_packet(AVPacket *pkt);
+     ^
+5 warnings generated.
+[3/3] Linking CXX shared library /home/keda/SourceCode/github.com/AndroidFFMPEG/ffmpeg/build/intermediates/cmake/debug/obj/armeabi-v7a/libvideosurface.so
